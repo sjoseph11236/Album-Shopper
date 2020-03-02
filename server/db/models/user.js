@@ -9,6 +9,12 @@ const User = db.define('user', {
     validate: { 
       notEmpty: true
     }
+  },
+  imageUrl: {
+    type: Sequelize.STRING,
+    allowNull: true,
+    defaultValue:
+      'https://via.placeholder.com/300.png/09f/fff%20C/O%20https://placeholder.com/'
   }, 
   email: { 
     type: Sequelize.STRING,
@@ -39,6 +45,10 @@ const User = db.define('user', {
     get() {
       return () => this.getDataValue('salt');
     }
+  },
+  isAdmin: {
+    type: Sequelize.BOOLEAN,
+    allowNull: false, 
   }
 });
 

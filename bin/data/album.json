@@ -1,0 +1,14 @@
+[{
+  "name": "Born Sinner",
+  "price": 1000,
+  "artist": "J. Cole",
+  "description": "Born Sinner is the second studio album by American rapper J. Cole. It was released on June 18, 2013, by ByStorm Entertainment, Columbia Records, Dreamville Records and Roc Nation. The album serves as the follow-up to his debut album, Cole World: The Sideline Story.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/J_Cole_Born_Sinner3.jpg/220px-J_Cole_Born_Sinner3.jpg"
+}, 
+{
+  "name": "2014 Forest Hill Drive",
+  "price": 1000,
+  "artist": "J. Cole",
+  "description": "2014 Forest Hills Drive is the third studio album by American rapper J. Cole. It was released on December 9, 2014, by ByStorm Entertainment, Columbia Records, Dreamville Records and Roc Nation.",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/2/2a/2014ForestHillsDrive.jpg"
+}]
