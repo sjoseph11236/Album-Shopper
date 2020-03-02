@@ -1,6 +1,6 @@
-# BOILER PLATE:
+# Album-Shopper:
 
-This is my boiler plate
+An e-commerce site for music albums
 
 ### SOURCES:
 
