@@ -1,6 +1,7 @@
-const { db, User, Album } = require('../server/db');
+const { db, User, Album, Order, OrderItem } = require('../server/db');
 const users = require('./data/user.json');
 const albums = require('./data/album.json');
+const orders = require('./data/order.json');
 const {green, red} = require('chalk');
 
 const seed = async() => {
@@ -8,6 +9,7 @@ const seed = async() => {
   
   await User.bulkCreate(users);
   await Album.bulkCreate(albums);
+  await Order.bulkCreate(orders);
   
   console.log(green('Seeding success!'));
   db.close();
