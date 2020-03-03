@@ -46,12 +46,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use('/auth', require('./auth'));
-// app.use('/api', require('./api'));
-
-// app.get('/api', (req, res) => { 
-//   res.send('hello World');
-// });
-
+app.use('/api', require('./api'));
 
 // Static middleware
 app.use(express.static(path.join(__dirname, '../public')));
